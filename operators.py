@@ -49,14 +49,25 @@
 
 # logical operator
 
-a = 10
-b = 5 
+# a = 10
+# b = 5 
 
-print(not (a > 5))
+# print(not (a > 5))
 
-a = True
-b = False
-print(a and b)
+# a = True
+# b = False
+# print(a and b)
 
 
-print (a or b)
+# print (a or b)
+
+
+#type conversion
+
+# a = "2"
+# b = 4
+# c = int(a)
+# print (c + b)
+
+# a = str(3.14)
+# print(type(a))
