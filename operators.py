@@ -29,19 +29,34 @@
 
 # Assignment operator
 
+# a = 10
+
+# a += 10
+# print(a)
+
+# a -= 10
+# print(a)
+
+# a /= 2
+# print(a)
+
+# a *= 5
+# print(a)
+
+# a **= 3
+# print(a)
+
+
+# logical operator
+
 a = 10
+b = 5 
 
-a += 10
-print(a)
+print(not (a > 5))
 
-a -= 10
-print(a)
+a = True
+b = False
+print(a and b)
 
-a /= 2
-print(a)
 
-a *= 5
-print(a)
-
-a **= 3
-print(a)
+print (a or b)
