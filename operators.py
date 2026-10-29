@@ -17,12 +17,31 @@
 
 # relational operator
 
-a = 20
-b = 30
+# a = 20
+# b = 30
 
-print(a == b)
-print(a != b)
-print(a >= b)
-print(a <= b)
-print(a < b)
-print(a > b)
+# print(a == b)
+# print(a != b)
+# print(a >= b)
+# print(a <= b)
+# print(a < b)
+# print(a > b)
+
+# Assignment operator
+
+a = 10
+
+a += 10
+print(a)
+
+a -= 10
+print(a)
+
+a /= 2
+print(a)
+
+a *= 5
+print(a)
+
+a **= 3
+print(a)
