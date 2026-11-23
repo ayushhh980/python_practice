@@ -30,13 +30,21 @@
 
 
 
-num1 = int(input("enter number1 : "))
-num2 = int(input("enter number2 : "))
-num3 = int(input("enter number3 : "))
+# num1 = int(input("enter number1 : "))
+# num2 = int(input("enter number2 : "))
+# num3 = int(input("enter number3 : "))
 
-if(num1 > num2 and num1 > num3):
-    print("num1 is greatest")
-elif(num2 > num3):
-    print("num2 is greatest")
+# if(num1 > num2 and num1 > num3):
+#     print("num1 is greatest")
+# elif(num2 > num3):
+#     print("num2 is greatest")
+# else:
+#     print("num3 is greatest")
+
+
+num = int(input("enter number : "))
+
+if(num%7 == 0):
+    print("multiple of seven")
 else:
-    print("num3 is greatest")
+    print("not a multiple of seven")
