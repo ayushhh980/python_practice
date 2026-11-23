@@ -21,9 +21,22 @@
 #     print("D Grade")
 
 
-num = int(input("enter number : "))
+# num = int(input("enter number : "))
 
-if(num%2 == 0):
-    print("even")
+# if(num%2 == 0):
+#     print("even")
+# else:
+#     print("odd")
+
+
+
+num1 = int(input("enter number1 : "))
+num2 = int(input("enter number2 : "))
+num3 = int(input("enter number3 : "))
+
+if(num1 > num2 and num1 > num3):
+    print("num1 is greatest")
+elif(num2 > num3):
+    print("num2 is greatest")
 else:
-    print("odd")
+    print("num3 is greatest")
